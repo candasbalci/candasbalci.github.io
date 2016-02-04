@@ -16,7 +16,9 @@
       margin-left: 0;
       margin-right: 0; }
   .brandImage {
-    display: none; } }
+    display: none; }
+  h1 {
+    font-size: 3rem !important; } }
 
 body {
   margin: 0;
@@ -74,7 +76,7 @@ label, .title {
   font-weight: 500;
   color: #a5aab2;
   letter-spacing: 0.85rem;
-  line-height: 2.8;
+  line-height: 1;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
