@@ -18,7 +18,10 @@
   .brandImage {
     display: none; }
   h1 {
-    font-size: 3rem !important; } }
+    font-size: 3rem !important; }
+  .current {
+    padding-top: 0.4rem;
+    line-height: 1.618; } }
 
 body {
   margin: 0;
