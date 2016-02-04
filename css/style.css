@@ -63,7 +63,7 @@ h1 {
   font-weight: 300;
   color: #273145;
   letter-spacing: -0.075rem;
-  line-height: 1.4; }
+  line-height: 0; }
 
 .firstLetter {
   font-size: 2rem;
@@ -150,6 +150,9 @@ titleHolderTwo {
   -ms-user-select: none;
   user-select: none; }
 
+.bio {
+  text-align: justify; }
+
 .position {
   font-weight: 400;
   line-height: 1.21; }
@@ -197,4 +200,7 @@ p {
 .footer {
   width: 100%;
   padding: 1rem 0 2rem;
-  opacity: .5; }
+  opacity: .5;
+  margin: 0; }
+  .footer .signature {
+    font-size: 0.8rem; }
