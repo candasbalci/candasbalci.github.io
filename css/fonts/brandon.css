@@ -1,0 +1,35 @@
+/**
+ * WEBFONTS
+ * generated using webfonts.gidix.net
+ * 
+ * 03.02.2016, 09:42
+ */
+
+@font-face {
+	font-family: 'Brandon';
+	src: url('BrandonGrotesque-Regular.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Brandon';
+	src: url('BrandonGrotesque-Medium.ttf');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Brandon';
+	src: url('BrandonGrotesque-Light.ttf');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Brandon';
+	src: url('BrandonGrotesque-Bold.ttf');
+	font-weight: 700;
+	font-style: normal;
+}
+

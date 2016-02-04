@@ -1,0 +1,200 @@
+@import url(fonts/brandon.css);
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+@media (max-width: 768px) {
+  .container {
+    margin-left: 10px;
+    margin-right: 10px; }
+    .container .container {
+      margin-left: 0;
+      margin-right: 0; }
+  .brandImage {
+    display: none; } }
+
+body {
+  margin: 0;
+  color: #273145;
+  font-size: 1rem;
+  font-family: "Brandon", sans-serif;
+  font-weight: 300;
+  background-color: #F6F7F8;
+  cursor: default;
+  line-height: 1.618; }
+
+a {
+  padding: 0;
+  text-decoration: none;
+  color: #777d8a;
+  font-weight: 400;
+  background: #f0f2f3; }
+
+a:hover {
+  background: #e6e9ef;
+  -webkit-transform: scaleXY(1.1);
+  transform: scaleXY(1.1);
+  opacity: 1;
+  transition: all 0.2s ease-out; }
+
+.push {
+  margin-top: 20%; }
+
+.push32, .push32white {
+  margin-top: 2rem;
+  margin-bottom: 1.25rem; }
+
+.push32white {
+  border-bottom: 1px solid white; }
+
+::-moz-selection {
+  background: #c7cedb; }
+
+::selection {
+  background: #c7cedb; }
+
+h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  color: #273145;
+  letter-spacing: -0.075rem;
+  line-height: 1.4; }
+
+.firstLetter {
+  font-size: 2rem;
+  line-height: 0; }
+
+label, .title {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #a5aab2;
+  letter-spacing: 0.85rem;
+  line-height: 2.8;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+titleHolder, titleHolderTwo {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #a5aab2;
+  margin: 0.1rem 0;
+  padding: 0;
+  width: 49%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+titleHolderTwo {
+  width: 99%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.current {
+  color: #a5aab2;
+  font-weight: 300;
+  letter-spacing: -0.025rem;
+  padding-top: 1.6rem;
+  line-height: 0; }
+
+.brandImage {
+  max-height: 150px;
+  max-width: 200px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: all 0.2s ease-out; }
+
+.brandImage:hover {
+  -webkit-filter: brightness(105%);
+  filter: brightness(105%);
+  transition: all 0.2s ease-out; }
+
+.imageSection {
+  margin: 2rem 3%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  .imageSection .myImage, .imageSection .myImage:hover {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto; }
+  .imageSection .myImage:hover {
+    -webkit-filter: brightness(103%);
+    filter: brightness(103%); }
+
+.experience {
+  margin-bottom: 0.8rem; }
+
+.title {
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: #a5aab2;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.position {
+  font-weight: 400;
+  line-height: 1.21; }
+
+.company {
+  font-weight: 300; }
+
+.period {
+  font-size: 0.8rem; }
+
+p {
+  font-weight: 300;
+  line-height: 1.618;
+  text-align: justify; }
+
+.serviceIcon {
+  display: block;
+  margin: 1rem auto 0;
+  height: 128px;
+  width: 128px;
+  background-position: center;
+  background-size: cover; }
+
+.serviceIcon:hover {
+  -webkit-filter: brightness(103%);
+  filter: brightness(103%);
+  transition: all 0.2s ease-out; }
+
+.serviceName {
+  line-height: 3.2;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.patlican {
+  margin-top: 4rem;
+  background: #c7cedb;
+  width: 100%;
+  padding: 13% 0; }
+
+.socialDot {
+  padding: 0 0.2rem; }
+
+.footer {
+  width: 100%;
+  padding: 1rem 0 2rem;
+  opacity: .5; }
